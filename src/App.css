@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+// src/App.js
+import React from 'react';
+import Register from './components/Register';
+
+const App = () => {
+    return (
+        <div>
+            <h1>Мій Додаток</h1>
+            <Register />
+        </div>
+    );
+};
+
+export default App;
